@@ -1,6 +1,2 @@
-var fullName = "Nguyễn Văn A";
-var age = 25;
-var isStudent = true;
-console.log("H\u1ECD t\u00EAn: ".concat(fullName));
-console.log("Tu\u1ED5i: ".concat(age));
-console.log("L\u00E0 sinh vi\u00EAn: ".concat(isStudent));
+var student = [1, "Nguyễn Văn A", false];
+console.log("ID: ".concat(student[0], ", Name: ").concat(student[1], ", Graduated: ").concat(student[2]));
