@@ -1,7 +1,5 @@
-let fullName: string = "Nguyễn Văn A";
-let age: number = 22;
-let isStudent: boolean = true;
+let numbers: number[] = [1, 2, 3, 4, 5];
 
-console.log(`Họ tên: ${fullName}`);
-console.log(`Tuổi: ${age}`);
-console.log(`Là sinh viên: ${isStudent}`);
+numbers.forEach(num => {
+    console.log(num);
+});
